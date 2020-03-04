@@ -1,0 +1,55 @@
+.SiteWrapper {
+
+  margin:0 auto;
+  max-width:1080px;
+  padding:0 25px;
+  width: 100%;
+
+}
+
+.Home {
+
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.Home h1 {
+  text-align: center;
+  font-size: 50px;
+  color:lightblue;
+}
+
+.WeatherInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.WeatherInfo_Image {
+  flex-basis: 50%;
+
+}
+
+.WeatherInfo_Data .CurrentTemperatureTemp{
+  flex-basis: 50%;
+
+}
+
+.CurrentTemperature p{
+  font-size: 180px;
+  line-height: 10px;
+  font-weight: bold;
+  color:lightblue;
+}
+
+.WeatherInfo_Data.CurrentTemperature .CurrentTemperature{
+
+  margin: 0;
+  text-transform:
+}
+
+.OtherTemperature p{
+  font-size: 24px;
+  line-height: 24px;
+
+}
